@@ -2,6 +2,9 @@
   <div id="app">
     <a-button type="primary">Primary</a-button>
     <excl />
+    <div>
+      {{ 'ss  s   shdiiqw  ioeqwio ' | trim(1)}}
+    </div>
   </div>
 </template>
 
