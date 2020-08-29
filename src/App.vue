@@ -5,17 +5,20 @@
     <div>
       {{ 'ss  s   shdiiqw  ioeqwio ' | trim(1)}}
     </div>
+    <hello-world />
   </div>
 </template>
 
 <script>
 import { Button } from 'ant-design-vue'
 import Excl from '@/components/excl.vue'
+import HelloWorld from '@/components/HelloWorld.vue'
 export default {
   name: 'app',
   components: {
     [Button.name]: Button,
-    Excl
+    Excl,
+    HelloWorld
   }
 }
 </script>
