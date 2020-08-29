@@ -1,8 +1,11 @@
 import Vue from 'vue'
 import App from './App.vue'
 import store from './store'
+import { Emit } from './emit/emit.js'
 import * as filters from './filter/filter.js'
 // import { Button } from 'ant-design-vue'
+Vue.prototype.Emit = Emit;
+
 Vue.config.productionTip = false
 // Vue.component(Button.name, Button)
 

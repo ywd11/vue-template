@@ -6,6 +6,7 @@
       {{ 'ss  s   shdiiqw  ioeqwio ' | trim(1)}}
     </div>
     <hello-world />
+    <father />
   </div>
 </template>
 
@@ -13,12 +14,14 @@
 import { Button } from 'ant-design-vue'
 import Excl from '@/components/excl.vue'
 import HelloWorld from '@/components/HelloWorld.vue'
+import Father from '@/components/communication/father.vue'
 export default {
   name: 'app',
   components: {
     [Button.name]: Button,
     Excl,
-    HelloWorld
+    HelloWorld,
+    Father
   }
 }
 </script>
